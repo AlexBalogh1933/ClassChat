@@ -44,6 +44,10 @@
                         {
                             "title": "helloWorld",
                             "description": "A helloworld command to send a welcome message"
+                        },
+                        {
+                            "title": "printMessage",
+                            "description": "A command to return a sent message."
                         }
                     ]
                 }
