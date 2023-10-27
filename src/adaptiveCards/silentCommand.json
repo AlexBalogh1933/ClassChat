@@ -1,0 +1,13 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "text": "This is a silent message!",
+      "wrap": true
+    }
+  ],
+  "$schema": "http://adaptivecards.io/adaptive-card.json",
+  "version": "1.4"
+}
