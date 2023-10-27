@@ -48,6 +48,10 @@
                         {
                             "title": "printMessage",
                             "description": "A command to return a sent message."
+                        },
+                        {
+                            "title": "silent",
+                            "description": "A command to return a sent message anonymously."
                         }
                     ]
                 }
