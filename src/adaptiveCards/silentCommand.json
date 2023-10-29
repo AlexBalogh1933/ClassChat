@@ -6,6 +6,12 @@
       "size": "Medium",
       "text": "${title}",
       "wrap": true
+    },
+    {
+      "type": "TextBlock",
+      "size": "Medium",
+      "text": "${body}",
+      "wrap": true
     }
   ],
   "$schema": "http://adaptivecards.io/adaptive-card.json",
