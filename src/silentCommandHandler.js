@@ -19,6 +19,8 @@ class SilentCommandHandler {
   }
 }
 
+//Methods
+
 module.exports = {
   SilentCommandHandler,
 }
