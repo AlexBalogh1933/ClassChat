@@ -9,6 +9,7 @@
     },
     {
       "type": "TextBlock",
+      "size": "Medium",
       "text": "${body}",
       "wrap": true
     }
