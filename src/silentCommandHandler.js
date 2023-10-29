@@ -9,9 +9,13 @@ class SilentCommandHandler {
     //verify the command arguments received from the client
     console.log(`Silenced Message: ${message.text}`);
 
+    // trim 'silent' from the message
+    var trimmedMessage = trimMessage(message);
+
+    // render the silentCommand adaptive card
     const cardData = {
-      title: "Silent command is added!",
-      body: "Congratulations! You have responded to silent command",
+      title: "A student asked:",
+      body: trimmedMessage,
     };
 
     const cardJson = AdaptiveCards.declare(silentCard).render(cardData);
@@ -19,8 +23,14 @@ class SilentCommandHandler {
   }
 }
 
-//Methods
+// Methods
 
+// Removes the 'silent' command from the message
+function trimMessage(message){
+  return message.text.slice(6);
+}
+
+// Exports
 module.exports = {
   SilentCommandHandler,
 }
